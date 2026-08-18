@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>غير متصل — التعلم الممتع</title>
+<style>
+:root{--teal:#1aab8a;--paper:#f0f7f4;--ink:#1a2230;--ink-soft:#4e6070}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+.wrap{max-width:360px}
+.icon{font-size:4rem;margin-bottom:20px;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+h1{font-size:1.5rem;font-weight:800;color:var(--ink);margin-bottom:10px}
+p{font-size:.9rem;color:var(--ink-soft);line-height:1.8;margin-bottom:28px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(120deg,#1aab8a,#0d8060);color:#fff;border:none;border-radius:50px;font-family:inherit;font-size:.92rem;font-weight:700;cursor:pointer;box-shadow:0 4px 16px rgba(26,171,138,.3);transition:filter .2s}
+.btn:hover{filter:brightness(1.08)}
+.logo{width:72px;height:72px;margin:0 auto 20px;background:linear-gradient(135deg,#1aab8a,#0d8060);border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:2rem;color:white;box-shadow:0 4px 20px rgba(26,171,138,.3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">✦</div>
+  <div class="icon">📶</div>
+  <h1>أنتِ غير متصلة بالإنترنت</h1>
+  <p>يبدو أن الاتصال بالإنترنت منقطع.<br>تحقّقي من الشبكة ثم حاولي مجدداً.</p>
+  <button class="btn" onclick="window.location.reload()">🔄 إعادة المحاولة</button>
+</div>
+</body>
+</html>

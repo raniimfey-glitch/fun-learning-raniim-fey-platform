@@ -1,0 +1,40 @@
+{
+  "name": "التعلم الممتع",
+  "short_name": "التعلم الممتع",
+  "description": "مكتبة تطبيقات تعليمية تفاعلية باللغة العربية — رنيم فاي",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f0f7f4",
+  "theme_color": "#1aab8a",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["education", "kids"],
+  "icons": [
+    { "src": "/icon-72.png",  "sizes": "72x72",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-96.png",  "sizes": "96x96",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "رنيم فاي — التعلم الممتع"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الواجهة الرئيسية",
+      "short_name": "الرئيسية",
+      "description": "العودة إلى قائمة التطبيقات",
+      "url": "/",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
